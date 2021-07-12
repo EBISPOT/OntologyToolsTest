@@ -13,7 +13,7 @@ You must use the ontology lookup service (OLS) to retrieve information regarding
 https://www.ebi.ac.uk/ols/api/ontologies/efo
 
 The general request for retrieving information regarding an ontology is:
-https://www.ebi.ac.uk/ols/api/ontologies/{ontologyId}
+https://www.ebi.ac.uk/ols/api/ontologies/{ontologyId}, where {ontologyId} should be replaced with the ontologyId you want use. E.g., using the ontology id for efo this becomes https://www.ebi.ac.uk/ols/api/ontologies/efo, for the ontology id mondo, it becomes https://www.ebi.ac.uk/ols/api/ontologies/mondo, and so forth for other ontology IDs.
 
 A list of all ontologies can be retrieved using 
 https://www.ebi.ac.uk/ols/api/ontologies
